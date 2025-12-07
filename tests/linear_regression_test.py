@@ -1,7 +1,7 @@
 from sklearn.datasets import make_regression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, mean_absolute_error
-from models.linear_regression import LinearRegressionSGD
+from models.linear_regression_sgd import LinearRegressionSGD
 
 
 if __name__ == '__main__':

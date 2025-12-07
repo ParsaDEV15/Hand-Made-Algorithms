@@ -1,7 +1,7 @@
 from sklearn.datasets import make_classification
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
-from models.logistic_regression import LogisticRegressionMBGD
+from models.logistic_regression_bsgd import LogisticRegressionMBGD
 
 
 if __name__ == '__main__':
