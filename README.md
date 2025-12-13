@@ -22,12 +22,11 @@ Inside the `models/` directory, two fundamental models are fully implemented:
 Hand-Made-Algorithms/
 │
 ├── models/
-│   ├── linear_regression_sgd.py       # Linear Regression w/ SGD update rule
-│   ├── logistic_regression_bsgd.py    # Logistic Regression w/ Batch SGD
+│   ├── linear_regression_sgd.py      
+│   ├── logistic_regression_bsgd.py    
 │
-├── tests/                             # (future) benchmark & accuracy checks
-├── README.md
-└── examples/                          # planned for sample demo usage
+├── tests/                             
+└── README.md                     
 ```
 
 ---
