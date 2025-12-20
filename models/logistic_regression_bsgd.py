@@ -2,13 +2,13 @@ import numpy as np
 
 
 class LogisticRegressionMBGD:
-    def __init__(self, n_iter=1000, alpha=0.0, learning_rate=0.001, random_state=None):
+    def __init__(self, n_iter=1000, alpha=0.0, learning_rate=0.001, batch_size=32, random_state=None):
         self.rng = np.random.default_rng(random_state)
 
         self.n_iter = n_iter
         self.alpha = alpha
         self.learning_rate = learning_rate
-        self.batch_size = 32
+        self.batch_size = batch_size
 
         self.w = None
         self.b = None
